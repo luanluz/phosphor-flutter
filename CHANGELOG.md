@@ -1,5 +1,23 @@
 # CHANGELOG
 
+## [2.2.0] - 2026/09/22
+
+### Breaking changes
+
+- `PhosphorIcon` now extends `StatelessWidget` instead of `Icon`.
+- Icons are plain `IconData` values. `PhosphorFlatIconData` and `PhosphorDuotoneIconData` were removed; `PhosphorIconData` is a `typedef` for `IconData`.
+- Duotone secondary glyphs are resolved via `getPhosphorDuotoneSecondaryIconData`.
+
+### Features
+
+- Compatible with Flutter 3.44 / modern `Icon` APIs (`applyTextScaling`, `blendMode`, `fontWeight`).
+- Generator tools updated for Dart 3.11+ (`dart_style` 3, `http` 1, `archive` 4).
+
+### Requirements
+
+- Flutter `>=3.35.0`
+- Dart `>=3.9.0`
+
 ## [2.1.0] - 2024/05/10
 
 ### New icons
