@@ -1,6 +1,6 @@
 library phosphor_flutter;
 
-import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:phosphor_flutter/phosphor_flutter.dart';
 
 class PhosphorIcon extends StatelessWidget {

@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [2.2.1] - 2026/11/20
+
+### Fixes
+
+- `PhosphorIcon` imports `package:flutter/widgets.dart` instead of deprecated `package:flutter/material.dart` (Flutter 3.50 / `material_ui` migration).
+- Example app migrated to `package:material_ui`.
+
 ## [2.2.0] - 2026/09/22
 
 ### Breaking changes
